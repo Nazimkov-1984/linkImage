@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Henny" ;
+    src: url(./assets/fonts/Henny_Penny/HennyPenny-Regular.ttf);
+}
 body {
     padding: 0;
     margin: 0;
@@ -76,4 +80,16 @@ menu {
 }
 .title_card {
     margin-bottom: 40px;
+}
+.header_menu_item_link {
+font-family: "Henny", serif;
+font-weight:500;
+font-size: 20px;
+color:rgba(33, 173, 68);
+}
+
+p {
+    line-height: 15px;
+    word-spacing: 50px;
+    letter-spacing: 15px;
 }
