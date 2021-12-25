@@ -21,6 +21,12 @@ a {
 ul {
   list-style-type: none;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 20%;
+  backdrop-filter: blur(2px);
+}
 menu {
   padding: 33px 0 0 0;
   margin: 0;
@@ -51,6 +57,7 @@ menu {
   align-items: center;
   flex-direction: column;
   padding-bottom: 104px;
+  margin-top: 60px;
 }
 .main_image {
   width: 943px;
@@ -85,7 +92,7 @@ menu {
   margin-bottom: 40px;
 }
 .header_menu_item_link:hover {
-background-color: #828282
+  background-color: #828282;
 }
 .header_menu_item_link {
   font-family: "Henny", serif;
